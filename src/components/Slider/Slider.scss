@@ -1,0 +1,69 @@
+.slider-wrapper{
+        img{
+            width: 100%;
+        }
+        .title{
+            font-weight: 400;
+            text-transform: capitalize;
+            padding: 48px 12px 0 12px;
+        }
+        p{
+            margin-bottom: 0;
+            font-size: 12px;
+            &.figure-title{
+                margin-bottom: 6px;
+                font-size: 16px;
+            }
+        }
+        a,a:hover{
+            text-decoration: none;
+            color: black;
+            
+        }
+    
+    .slick-slider{
+        .slick-arrow{
+            width: 30px;
+            height: 30px;
+            background-color: white;
+            border: 1px lightgray; 
+            
+            @media(max-width: 991px){
+                &.slick-prev{
+                    left: 0;
+                    z-index: 1;
+                }
+                &.slick-next{
+                    right: 0;
+                    z-index: 1;
+                }
+            }
+        }
+        .slick-prev:before, .slick-next:before{
+            opacity: 1;
+            color: lightgray;
+        }   
+    }
+    &.fiction, &.selfImprovment{
+        background-color: #000000;
+        background-image: linear-gradient(315deg, #000000 0%, #7f8c8d 74%);
+        .title, .figure-title{
+            color: white;
+        }
+        .review,.author{
+            color: greenyellow;
+            text-transform: uppercase;
+        }
+    }
+    &.childrens, &.nonFiction, &.books{
+        background-color: whitesmoke;
+        .figure-title{
+            color: black;
+        }
+        .review,.author,.publish{
+            color: gray;
+            text-transform: uppercase;
+        }
+        
+    }
+}

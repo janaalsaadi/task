@@ -1,0 +1,25 @@
+.book-wrapper{
+    background-color: whitesmoke;
+    figure{
+        margin: 24px 0;
+        justify-content: space-between;
+        flex-direction: column;
+        
+        figcaption{
+            margin-left: 16px;
+            text-align: center;
+        }
+        img{
+            width: 200px;
+            margin: auto;
+        }
+        .figure-title{
+            @media(min-width: 1025px){
+                font-size: 36px;
+            }
+        }
+        .publish,.review,.author{
+            margin-bottom: 6px;
+        }
+    }
+}

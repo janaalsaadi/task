@@ -1,0 +1,117 @@
+header {
+  background-color: yellowgreen;
+  color: white;
+  .Logo {
+    font-size: 28px;
+    margin: 0;
+    text-align: center;
+    span {
+      font-weight: 100;
+    }
+  }
+  .header-content {
+    flex-direction: row-reverse;
+    margin: 0 auto;
+    padding: 16px 0;
+  }
+  .header-col{
+    padding: 0;
+  }
+  .col {
+    padding-left: 0;
+    margin: auto;
+    &:first-child {
+      margin: 0;
+      text-align: center;
+    }
+    &:last-child {
+      flex-grow: 0;
+    }
+  }
+  .sub-navbar {
+    font-size: 14px;
+    .navbar-toggler {
+      border-color: white;
+      &:focus {
+        color: white;
+      }
+    }
+    .navbar-nav {
+      .nav-link,a {
+        color: white;
+        text-decoration: none;
+      }
+      .search-icon {
+        width: 16px;
+      }
+      .dropdown {
+        .dropdown-item{
+          border-bottom: 1px solid lightgray;
+          &:last-child{
+            border-bottom: none;
+          }
+          a{
+            color: black;
+          }
+        }
+        .dropdown-toggle {
+          background-color: transparent;
+          color: black;
+          border: unset;
+          padding-left: 0;
+        }
+      }
+    }
+  }
+  @media (min-width: 1025px) {
+    .Logo {
+      font-size: 40px;
+    }
+    .sub-navbar,
+    .dropdown-toggle {
+      font-size: 18px;
+    }
+    .sub-navbar {
+      justify-content: flex-end;
+      .navbar-nav {
+        .search-icon {
+          width: 18px;
+        }
+      }
+    }
+  }
+  @media (max-width: 991px) {
+    .header-content{
+      margin: 0;
+      padding: 16px;
+    }
+
+  }
+  @media (min-width: 768px) {
+    .header-content {
+      flex-direction: row;
+      .Logo{
+        text-align: left;
+      }
+      .col {
+        &:first-child {
+          text-align: left;
+        }
+       
+      }
+    }
+    .sub-navbar {
+      justify-content: space-between;
+      .navbar-collapse{
+        justify-content: flex-end;
+      }
+      .navbar-nav {
+        .dropdown {
+          .dropdown-toggle {
+            padding-left: 12px;
+          }
+        }
+      }
+    }
+  }
+}

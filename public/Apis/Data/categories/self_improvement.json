@@ -1,0 +1,67 @@
+{
+	"books": [
+		{
+			"id": 1,
+			"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVmIqhpOFY3JbnA0oIUUs3PN8E2JDtZtBZpg&usqp=CAU",
+			"title": "Maecenas",
+			"author": "Vestibulum turpis",
+			"reviewedBy": "Etiam feugiat"
+		},
+		{
+			"id": 2,
+			"image": "https://images-na.ssl-images-amazon.com/images/I/810lnQaHqmL.jpg",
+			"title": "Nam",
+			"author": "Fusce vulputate",
+			"reviewedBy": "Nunc nec"
+		},
+		{
+			"id": 3,
+			"image": "https://i.pinimg.com/originals/eb/05/c6/eb05c6f74046cb7e92ce2fe01687fd76.jpg",
+			"title": "Suspendisse",
+			"author": "Suspendisse pulvinar",
+			"reviewedBy": "Phasellus volutpat"
+		},
+		{
+			"id": 4,
+			"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoVdCvp_KoDfdtZnMIm5xc1KaH0SHMFVuOcmMTlP4TTJWGsv-YnricvNpUpTlAMuXGYR8&usqp=CAU",
+			"title": "Maecenas",
+			"author": "Vestibulum turpis",
+			"reviewedBy": "Etiam feugiat"
+		},
+		{
+			"id": 5,
+			"image": "https://rivetedlit.com/wp-content/uploads/2018/09/summer-bird-blue-9781481487757_hr-678x1024.jpg",
+			"title": "Nam",
+			"author": "Fusce vulputate",
+			"reviewedBy": "Nunc nec"
+		},
+		{
+			"id": 6,
+			"image": "https://eatreadexplore.files.wordpress.com/2012/12/2049640.jpg",
+			"title": "Suspendisse",
+			"author": "Suspendisse pulvinar",
+			"reviewedBy": "Phasellus volutpat"
+		},
+		{
+			"id": 7,
+			"image": "https://images.bwbcovers.com/150/9781501169052.jpg",
+			"title": "Maecenas",
+			"author": "Vestibulum turpis",
+			"reviewedBy": "Etiam feugiat"
+		},
+		{
+			"id": 8,
+			"image": "https://images-na.ssl-images-amazon.com/images/I/51VNprj1PXL._SX331_BO1,204,203,200_.jpg",
+			"title": "Nam",
+			"author": "Fusce vulputate",
+			"reviewedBy": "Nunc nec"
+		},
+		{
+			"id": 9,
+			"image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1550329466l/43561172._SY475_.jpg",
+			"title": "Suspendisse",
+			"author": "Suspendisse pulvinar",
+			"reviewedBy": "Phasellus volutpat"
+		}
+	]
+}
