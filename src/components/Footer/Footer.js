@@ -68,7 +68,7 @@ const Footer = () => {
             )}
             <div className="links-wrapper">
               {item.links.map((element) => (
-                <NavLink> {element} </NavLink>
+                <NavLink className={`${element === 'Books' ? 'greenText' : ''}`}> {element} </NavLink>
               ))}
             </div>
           </Col>
@@ -83,7 +83,7 @@ const Footer = () => {
             }
             <AccordionDetails>
               {item.links.map((element) => (
-                <NavLink> {element} </NavLink>
+                <NavLink className={`${element === 'Books' ? 'greenText' : ''}`}> {element} </NavLink>
               ))}
             </AccordionDetails>
           </Accordion>

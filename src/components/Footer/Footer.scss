@@ -31,10 +31,9 @@ footer{
                  color: gray;
                  font-size: 16px;
                  padding-left: 0;
-                 &:hover{
+                 &:hover , &.greenText{
                      color: yellowgreen;
                  }
-               
              }
          }
     }
@@ -59,6 +58,9 @@ footer{
             .nav-link{
                 color: gray;
                 padding-left: 0;
+                &.greenText {
+                    color: yellowgreen !important;
+                }
             }
         }
         @media (min-width:1025px) {
